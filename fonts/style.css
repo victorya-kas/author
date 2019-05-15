@@ -1,0 +1,71 @@
+@font-face {
+  font-family: 'author';
+  src:  url('fonts/author.eot?2q8atl');
+  src:  url('fonts/author.eot?2q8atl#iefix') format('embedded-opentype'),
+    url('fonts/author.ttf?2q8atl') format('truetype'),
+    url('fonts/author.woff?2q8atl') format('woff'),
+    url('fonts/author.svg?2q8atl#author') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'author' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-bulb-icon:before {
+  content: "\e908";
+}
+.icon-plus-icon:before {
+  content: "\e903";
+}
+.icon-devices-icon:before {
+  content: "\e900";
+}
+.icon-google-icon:before {
+  content: "\e901";
+}
+.icon-home-icon:before {
+  content: "\e904";
+}
+.icon-quill-icon:before {
+  content: "\e907";
+}
+.icon-images-icon:before {
+  content: "\e90e";
+}
+.icon-contact-icon:before {
+  content: "\e944";
+}
+.icon-display-icon:before {
+  content: "\e956";
+}
+.icon-team-icon:before {
+  content: "\e972";
+}
+.icon-cogs-icon:before {
+  content: "\e995";
+}
+.icon-rocket-icon:before {
+  content: "\e9a5";
+}
+.icon-plus1-icon:before {
+  content: "\ea0a";
+}
+.icon-facebook-icon:before {
+  content: "\ea90";
+}
+.icon-twitter-icon:before {
+  content: "\ea96";
+}

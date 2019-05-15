@@ -1,0 +1,11 @@
+.icon {
+    width: 105px;
+    height: 105px;
+    border-radius: 50%;
+    border: 1px solid $color-primary;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $color-primary;
+}

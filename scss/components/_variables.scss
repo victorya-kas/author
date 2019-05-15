@@ -1,0 +1,34 @@
+@mixin button ($padding-button: 13px 10px, $bg-color: $color-primary, $color: white) {
+    padding: $padding-button;
+    background-color: $bg-color;
+    color: $color;
+}
+
+// Font
+$global-font-family:                           "Roboto"; 
+$global-font-size:                             14px;
+$global-line-height:                           1.5 ;     // 24px
+
+$global-xxlarge-font-size:                     42px; // 42px
+$global-xlarge-font-size:                      32px;     // 32px
+$global-large-font-size:                       24px;   // 24px
+$global-medium-font-size:                      20px;  // 20px
+$global-small-font-size:                       14px; // 14px
+
+// Colors
+
+$global-color:                                #4e525d;;
+
+$color-primary:                               #49cbcd;
+$color-secondary:                             #788492;
+
+//Background
+
+$global-background:                           #fff;
+
+$global-primary-background:                   #1e87f0;
+$global-secondary-background:                 #222;
+
+$global-success-background:                   #32d296;
+$global-warning-background:                   #faa05a;
+$global-danger-background:                    #f0506e;

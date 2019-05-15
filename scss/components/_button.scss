@@ -1,0 +1,27 @@
+.button {
+    border: none;
+    border-radius: 5px;
+
+   &:hover {
+        background-color: $color-secondary;
+    }
+
+    &-primary {
+    @include button (14px 55px);
+    }
+    &-large {
+        @include button (22px 40px);
+        &-hero {
+           @include button (22px 40px, transparent);
+           border: 3px solid #ffffff; 
+        }
+        
+    }
+   &-medium {
+       @include button (12px 50px);
+       background-color: $global-color;
+       &-primary {
+           background-color: $color-primary;
+       }
+  }
+}

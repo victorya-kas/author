@@ -1,0 +1,17 @@
+.header-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.logo {
+    font-size: 43px;
+    color: $color-primary;
+}
+
+@media (max-width: 960px) {
+    .header-body {
+        padding: 15px 0;
+    }
+}
