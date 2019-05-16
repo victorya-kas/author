@@ -16,16 +16,6 @@ $(document).ready(function() {
             top = $(id).offset().top;
         $('body,html').animate({scrollTop: top}, 1200);
     });
-    (function($) {  
-        $(function() {  
-           
-          $('#back-top').click(function() {  
-            $('body,html').animate({scrollTop:0}, 1500);  
-            return false;  
-          })  
-           
-        })  
-    })
 
     jQuery(function(f){
         var element = f('#back-top');
@@ -37,6 +27,13 @@ $(document).ready(function() {
     var swiper = new Swiper('.swiper-container', {
         pagination: {
           el: '.swiper-pagination',
+        },
+      });
+
+      var swiper = new Swiper('.swiper-container', {
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
         },
       });
   });

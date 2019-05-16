@@ -42,6 +42,18 @@
         background-color: $color-primary;
     }
 
+    &:hover  {
+        .card-header-bg {
+            background-color: $color-primary;
+        }
+        .card-footer {
+            .button-medium {
+                background-color: $color-primary;
+            }
+        }
+        
+    }
+
 }
 .card-rate > * {
     width: 100%;
